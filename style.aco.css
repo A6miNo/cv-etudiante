@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+ul , li{
+  list-style: none;
+}
+
+  body{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: .9rem;
+    line-height: 1.5;
+    color: black;
+  }
+
+
+  a:link {
+    color: #6f91ce;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+ main{
+  box-shadow: 5px 5px 1px lightblue;
+  background: rgb(34,193,195);
+  background: linear-gradient(186deg, rgba(34, 192, 195, 0.445) 38%, rgba(45, 135, 253, 0.409) 81%);
+  border-radius: 9px 60px 57px 35px;
+  -webkit-border-radius: 9px 60px 57px 35px;
+  -moz-border-radius: 9px 60px 57px 35px;
+ }
+  
+  h1{
+    margin: 0 0 1rem;
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+  }
+  
+  h2{
+    margin: 0 0 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  h3{
+    text-align: center;
+  }
+  
+   .text-blue{
+    color: #4472C4;
+  }
+
+  .text-white{
+    color: whitesmoke;
+  }
+  
+  .text-darkblue{
+    color: #002060;
+  }
+  
+  .text-uppercase{
+    text-transform: uppercase; 
+  }
+  
+  .icon{
+    margin-right: .5rem;
+  }
+
+  section{
+    margin-bottom: 1.5rem;
+  }
+  
+  address{
+    border: 1px solid #4472C4;
+    border-radius: 20px 30px 5px 18px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .circle{
+    border: 2px solid #4472C4;
+    padding: 1rem;
+    width:40%;
+    border-radius: 20%;
+   
+  }
+  .rounded-circle{
+    object-fit: fill;
+    width: 10%;
+    height: 10%;
+    margin-left: 2rem;
+    box-shadow: -2px 2px 5px 0px rgba(145, 175, 227, 0.438);;
+
+   }
+  
+   .bg-color{
+background-color: #91afe3a5;;
+   }
+  .skills{
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    margin: 0 0 1rem;
+  }
+  
+  .border-right{
+    border-right:  4px solid #002060;
+  }
+  
+  .progress{
+    width: 35%;
+    border: 2px solid #002060;
+  }
+  
+.card{
+  width: 10rem;
+  margin-right: 1rem;
+}
+footer{
+background-color: #91afe3a5;
+
+}
+
+
+
+@media (max-width: 768px){
+  .border-right{
+    border-right: none;
+  }
+}
